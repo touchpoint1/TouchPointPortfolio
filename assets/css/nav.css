@@ -1,0 +1,28 @@
+nav {
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-header a{
+  color: whitesmoke;
+}
+.navbar ul li a{
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+.navbar ul li a:hover{
+  transition: 0.5s;
+  background-color: #5f36f4;
+  border-radius: 40px 40px 40px 40px;
+}
+.navbar .navbar-brand{
+  font-weight: bold;
+  font-size: 40px;
+}
+.navbar .navbar-brand:hover{
+  color: #5f36f4;
+}
